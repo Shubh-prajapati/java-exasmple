@@ -1,3 +1,5 @@
+package Operator;
+
 import java.util.Scanner;
 
 public class ArithmaticOperator {

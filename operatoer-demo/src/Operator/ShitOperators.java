@@ -1,3 +1,5 @@
+package Operator;
+
 import java.util.Scanner;
 // Left Shiftt Operator
 public class ShitOperators {
