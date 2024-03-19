@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conditional/ConditionalLadderDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conditional/SwtichDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Try/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArithmaticOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/ArithmaticOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BitwiseOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/BitwiseOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InstanceOfOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/InstanceOfOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicalOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/LogicalOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Relationaloperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/Relationaloperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShitOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/ShitOperators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TernaryOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/TernaryOperator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unaryoperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Operator/Unaryoperators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/WhileloopPattern1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conditional/SwtichDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conditional/SwtichDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +36,11 @@
   "keyToString": {
     "Application.ArithmaticOperator.executor": "Run",
     "Application.ConditionalLadderDemo.executor": "Run",
+    "Application.EndlessWhileloop.executor": "Run",
+    "Application.PatternForLoop.executor": "Run",
     "Application.SwtichDemo.executor": "Run",
     "Application.TernaryOperator.executor": "Run",
+    "Application.WhileloopPattern1.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -55,7 +48,20 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.WhileloopPattern1">
+    <configuration name="PatternForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.PatternForLoop" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwtichDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conditional.SwtichDemo" />
       <module name="operatoer-demo" />
@@ -69,8 +75,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WhileloopPattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.WhileloopPattern1" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WhileloopPattern1" />
+        <item itemvalue="Application.PatternForLoop" />
         <item itemvalue="Application.SwtichDemo" />
       </list>
     </recent_temporary>
