@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Loops/WhileloopPattern1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Conditional/SwtichDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conditional/SwtichDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +22,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2dqfLhXlTbnbtSecUluLqt8kJ9v" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -36,11 +37,24 @@
   "keyToString": {
     "Application.ArithmaticOperator.executor": "Run",
     "Application.ConditionalLadderDemo.executor": "Run",
+    "Application.DoWhileLoop.executor": "Run",
     "Application.EndlessWhileloop.executor": "Run",
+    "Application.ForButerflyPattern.executor": "Run",
+    "Application.ForDaigonalPattern.executor": "Run",
+    "Application.ForDigit.executor": "Run",
+    "Application.ForHalfPyramid.executor": "Run",
+    "Application.ForLoopEvenOdd.executor": "Run",
+    "Application.ForLoopSum.executor": "Run",
+    "Application.ForLoops.executor": "Run",
+    "Application.ForLoopsTable.executor": "Run",
+    "Application.ForMatrixPattern.executor": "Run",
+    "Application.ForNumberLoops.executor": "Run",
+    "Application.ForSquarePattern.executor": "Run",
     "Application.PatternForLoop.executor": "Run",
     "Application.SwtichDemo.executor": "Run",
     "Application.TernaryOperator.executor": "Run",
     "Application.WhileloopPattern1.executor": "Run",
+    "Application.WhileloopPattern2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -48,9 +62,9 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.WhileloopPattern1">
-    <configuration name="PatternForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.PatternForLoop" />
+  <component name="RunManager" selected="Application.ForDigit">
+    <configuration name="ForButerflyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.ForButerflyPattern" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -62,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SwtichDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Conditional.SwtichDemo" />
+    <configuration name="ForDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.ForDigit" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Conditional.*" />
+          <option name="PATTERN" value="Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +89,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WhileloopPattern1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.WhileloopPattern1" />
+    <configuration name="ForHalfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.ForHalfPyramid" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.ForLoopEvenOdd" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForLoopSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.ForLoopSum" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -90,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WhileloopPattern1" />
-        <item itemvalue="Application.PatternForLoop" />
-        <item itemvalue="Application.SwtichDemo" />
+        <item itemvalue="Application.ForDigit" />
+        <item itemvalue="Application.ForLoopSum" />
+        <item itemvalue="Application.ForLoopEvenOdd" />
+        <item itemvalue="Application.ForHalfPyramid" />
+        <item itemvalue="Application.ForButerflyPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -106,5 +148,29 @@
       <updated>1710740478262</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Loops/ForNumberLoops.java</url>
+          <line>3</line>
+          <properties class="Loops.ForNumberLoops" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Loops/ForLoopSum.java</url>
+          <line>3</line>
+          <properties class="Loops.ForLoopSum" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
