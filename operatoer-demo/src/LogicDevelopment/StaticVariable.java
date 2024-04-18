@@ -24,6 +24,9 @@ public class StaticVariable {
         b=true;
         System.out.println(b);
 
+        l=987654;
+        System.out.println(l);
+
         c='c';
         System.out.println(c);
 
