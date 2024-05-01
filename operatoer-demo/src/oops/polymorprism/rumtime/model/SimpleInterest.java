@@ -1,8 +1,8 @@
 package oops.polymorprism.rumtime.model;
 
-import com.sun.org.apache.bcel.internal.generic.ARETURN;
+import oops.polymorprism.rumtime.implementation.Interest;
 
-public class Interest {
+public class SimpleInterest implements Interest {
     public double calculate (double interstRate,int principalerate, int year){
 
         return principalerate * (interstRate / 100) * year;

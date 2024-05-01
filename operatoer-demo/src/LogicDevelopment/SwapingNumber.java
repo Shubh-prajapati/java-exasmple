@@ -1,5 +1,4 @@
 package LogicDevelopment;
-import oops.polymorprism.rumtime.model.Interest;
 
 import java.util.Scanner;
 
