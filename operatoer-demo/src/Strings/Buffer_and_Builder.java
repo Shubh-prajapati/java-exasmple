@@ -11,7 +11,7 @@ public class Buffer_and_Builder {
 
         StringBuilder buildercity=new StringBuilder();
         buildercity.append("Pune");
-        System.out.println("buildercity "+ buffercity);
+        System.out.println("builder city "+ buffercity);
         System.out.println("buildercity.capacity() "+ buildercity.capacity());
     }
 }
