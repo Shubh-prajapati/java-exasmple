@@ -14,7 +14,7 @@ public class WapperClassDemo {
         short shortNo=254;
 
 
-        // Non-primitive(Wapperclass) data Type
+        // Non-primitive(wapper class) data Type
         //auto Boxing
 
         Integer integerWapperNo=intNo;

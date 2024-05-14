@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="">
+    <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="String Method Demo">
+      <change afterPath="$PROJECT_DIR$/src/WapperClass/WapperClassDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -35,13 +37,24 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AbstractionDemo.executor": "Run",
+    "Application.AccessModifierDemo.executor": "Run",
+    "Application.AccountInheritance.executor": "Run",
     "Application.ArithmaticOperator.executor": "Run",
+    "Application.Buffer_and_Builder.executor": "Run",
     "Application.ConditionalLadderDemo.executor": "Run",
+    "Application.CustomExceptionDemo.executor": "Run",
+    "Application.DefenceInheritnace.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
     "Application.EndlessWhileloop.executor": "Run",
+    "Application.ExceptionWithThrowsDemo.executor": "Run",
+    "Application.ExceptionWithTryCatchDemo.executor": "Run",
+    "Application.FinbinassiSeries.executor": "Run",
     "Application.ForButerflyPattern.executor": "Run",
+    "Application.ForCountPrimeNumber.executor": "Run",
     "Application.ForDaigonalPattern.executor": "Run",
     "Application.ForDigit.executor": "Run",
+    "Application.ForEachArray.executor": "Run",
     "Application.ForHalfPyramid.executor": "Run",
     "Application.ForLoopEvenOdd.executor": "Run",
     "Application.ForLoopSum.executor": "Run",
@@ -49,26 +62,50 @@
     "Application.ForLoopsTable.executor": "Run",
     "Application.ForMatrixPattern.executor": "Run",
     "Application.ForNumberLoops.executor": "Run",
+    "Application.ForPrimeAlpha.executor": "Run",
+    "Application.ForReverseNumber.executor": "Run",
     "Application.ForSquarePattern.executor": "Run",
+    "Application.MethodOverloadingDemo.executor": "Run",
+    "Application.MethodOverridingDemo.executor": "Run",
+    "Application.MultiDimentioalAray.executor": "Run",
     "Application.PatternForLoop.executor": "Run",
+    "Application.PubgD.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.StaticBlock.executor": "Run",
+    "Application.StaticBlock1.executor": "Run",
+    "Application.StaticDemo.executor": "Run",
+    "Application.StaticVariable.executor": "Run",
+    "Application.StringMethod.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.SwapingNumber.executor": "Run",
     "Application.SwtichDemo.executor": "Run",
+    "Application.Table.executor": "Run",
     "Application.TernaryOperator.executor": "Run",
+    "Application.UniversityInheritance.executor": "Run",
+    "Application.WapperClassDemo.executor": "Run",
     "Application.WhileloopPattern1.executor": "Run",
     "Application.WhileloopPattern2.executor": "Run",
+    "Application.inheritanceDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "practice/java-17",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ForDigit">
-    <configuration name="ForButerflyPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.ForButerflyPattern" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="accessModifier" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.WapperClassDemo">
+    <configuration name="Buffer_and_Builder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Buffer_and_Builder" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Loops.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForDigit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.ForDigit" />
+    <configuration name="MethodOverridingDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oops.polymorprism.rumtime.model.MethodOverridingDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Loops.*" />
+          <option name="PATTERN" value="oops.polymorprism.rumtime.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForHalfPyramid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.ForHalfPyramid" />
+    <configuration name="StringMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.StringMethod" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Loops.*" />
+          <option name="PATTERN" value="Strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,25 +139,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopEvenOdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.ForLoopEvenOdd" />
+    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strings.Strings" />
       <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Loops.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForLoopSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Loops.ForLoopSum" />
+    <configuration name="WapperClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WapperClass.WapperClassDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Loops.*" />
+          <option name="PATTERN" value="WapperClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ForDigit" />
-        <item itemvalue="Application.ForLoopSum" />
-        <item itemvalue="Application.ForLoopEvenOdd" />
-        <item itemvalue="Application.ForHalfPyramid" />
-        <item itemvalue="Application.ForButerflyPattern" />
+        <item itemvalue="Application.WapperClassDemo" />
+        <item itemvalue="Application.StringMethod" />
+        <item itemvalue="Application.Buffer_and_Builder" />
+        <item itemvalue="Application.Strings" />
+        <item itemvalue="Application.MethodOverridingDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -147,7 +178,38 @@
       <option name="presentableId" value="Default" />
       <updated>1710740478262</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exception Handling">
+      <option name="closed" value="true" />
+      <created>1712060735581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712060735581</updated>
+    </task>
+    <task id="LOCAL-00002" summary="String Buffer and String Builder Demo">
+      <option name="closed" value="true" />
+      <created>1715236740090</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236740090</updated>
+    </task>
+    <task id="LOCAL-00003" summary="String Method Demo">
+      <option name="closed" value="true" />
+      <created>1715592675194</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715592675194</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exception Handling" />
+    <MESSAGE value="String Buffer and String Builder Demo" />
+    <MESSAGE value="String Method Demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="String Method Demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -169,6 +231,118 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LogicDevelopment/ReverseNumber.java</url>
+          <line>3</line>
+          <properties class="LogicDevelopment.ReverseNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/staticClazz/StaticDemo.java</url>
+          <line>3</line>
+          <properties class="staticClazz.StaticDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exceptionHandling/CustomExceptionDemo.java</url>
+          <line>25</line>
+          <properties class="exceptionHandling.CustomExceptionDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LogicDevelopment/StaticBlock.java</url>
+          <line>6</line>
+          <properties class="LogicDevelopment.StaticBlock" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/inheritanceDemo.java</url>
+          <line>9</line>
+          <properties class="oops.inhertance.service.inheritanceDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/AccountInheritance.java</url>
+          <line>5</line>
+          <properties class="oops.inhertance.service.AccountInheritance" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/UniversityInheritance.java</url>
+          <line>2</line>
+          <properties class="oops.inhertance.service.UniversityInheritance" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/LogicDevelopment/SwapingNumber.java</url>
+          <line>25</line>
+          <properties class="LogicDevelopment.SwapingNumber" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Loops/ForDigit.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Loops/ForDigit.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionHandling/ExceptionWithThrowsDemo.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/exceptionHandling/ExceptionWithThrowsDemo.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/inheritanceDemo.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/AccountInheritance.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/UniversityInheritance.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/LogicDevelopment/FinbinassiSeries.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
