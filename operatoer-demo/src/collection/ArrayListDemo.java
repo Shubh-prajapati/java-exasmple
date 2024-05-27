@@ -9,7 +9,7 @@ public class ArrayListDemo {
 
         List<String>citis=new ArrayList<>();
 
-        // add () is used to add items in list
+        // add () is used to add items in list.
         citis.add("Pune");
         citis.add("Akola");
         citis.add("Mumbai");
@@ -24,7 +24,7 @@ public class ArrayListDemo {
 
         // Check the String type data or Not .
 //        for (String element :citis) {
-//            System.out.println("is String? :"+element instanceof String);
+//            System.out.println("is String? : "+element instanceof String);
 //
 //        }
 
@@ -63,6 +63,7 @@ public class ArrayListDemo {
         System.out.println("Size of the newCities: "+newcitiList);
         System.out.println("-----------------------------------------------------------");
 
+        // Iterator-
         Iterator<String> citiesIterator =newcitiList.iterator();
         while (citiesIterator.hasNext()){
             System.out.println("Next Elements in newCitiesList: " +citiesIterator.next());

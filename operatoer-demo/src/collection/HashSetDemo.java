@@ -1,5 +1,6 @@
 package collection;
 
+import java.sql.SQLOutput;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -70,6 +71,12 @@ public class HashSetDemo {
         System.out.println("After removal- Remaining New Cities List: "+newCitiesSet);
         System.out.println("-----------------------------------------------------");
 
+        //Clear() - remove all the elements from the Set (more efficient than removeAll)
+
+        System.out.println("Size of NewCitiesList before clear(): "+newCitiesSet);
+        newCitiesSet.clear();
+        System.out.println("Size of newCitiesList after clear(): "+newCitiesSet.size() );
+        System.out.println("--------------------------------------------------------");
     }
 
 }
