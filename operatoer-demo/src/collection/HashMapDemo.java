@@ -1,5 +1,6 @@
 package collection;
 
+import java.io.PrintStream;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
@@ -65,13 +66,49 @@ public class HashMapDemo {
         }
             System.out.println("----------------------------------------------------------");
 
-
         //valueSet()- returns the set of value
         Iterator<String> fruitsValueIterator = newFruitsmap.values().iterator();
         while (fruitsValueIterator.hasNext()) {
             System.out.println("Next Value in newFruitsMap: " + fruitsValueIterator.next());
         }
-            System.out.println("-----------------------------------------------------------");
+
+        System.out.println("-----------------------------------------------------------");
+
+        // Entryset() -returns iterator object that can be used to sequentially access elements of map
+            Set<Map.Entry<Integer,String>> fruitsEntrySet=newFruitsmap.entrySet();
+//            Iterator<Map.Entry<Integer,String>> fruitsIterator=fruitsEntrySet.iterator();
+//            while(fruitsIterator.hasNext()){
+//                Map.Entry<Integer,String> entry=fruitsIterator.next();
+
+
+        // using For Each loops to returns the object can be used to sequentially access elements of map
+        for(Map.Entry<Integer, String>entry: fruitsEntrySet) {
+            System.out.println("Next element in newFruitslists: {" + entry.getKey() + ", " + entry.getValue() + "}");
+        }
+            System.out.println("----------------------------------------------------------------");
+
+        //put() - changes elements of map using for each loop .
+        newFruitsmap.put(2,"Apple");
+        for(Map.Entry<Integer,String>entry:newFruitsmap.entrySet()){
+            System.out.println("Next entry in newFruitsMap:{"+entry.getKey()+", "+entry.getValue()+", }");
+        }
+        System.out.println("---------------------------------------------------------------------");
+
+        //remove()-remove all the elements from the map
+        System.out.println("Before removal fruits map: "+map);
+        System.out.println("Before removal New Fruits Map : "+newFruitsmap);
+        System.out.println("Removal all elements of fruits map from newFruitsMap: "+newFruitsmap.remove(2));
+        System.out.println("After removal -Remaining New Fruits map: "+newFruitsmap);
+        System.out.println("--------------------------------------------------------");
+
+        // clear()- remove all the elements the map (more efficient to removeAll())
+//        System.out.println("Size of newFruitsMap before clear(): "+newFruitsmap.size());
+//        newFruitsmap.clear();
+//        System.out.println("Size of NewFruitsMap after the clear(): "+newFruitsmap.size());
+
+
+
+
 
 
 
