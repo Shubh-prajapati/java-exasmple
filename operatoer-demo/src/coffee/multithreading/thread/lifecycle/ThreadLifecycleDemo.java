@@ -11,7 +11,7 @@ class BlueThread implements Runnable{
             e.printStackTrace();
         }
         
-        System.out.println("State of white it called join() method on lightBlueThread -"+ThreadLifecycleDemo.whiteThread.getState());
+        System.out.println("State of white it called join() method on lightBlueThread -" +ThreadLifecycleDemo.whiteThread.getState());
         try{
             Thread.sleep(200);
         }catch (InterruptedException e){
@@ -45,7 +45,7 @@ public class ThreadLifecycleDemo  implements  Runnable{
         System.out.println("State of lightBlueThread after calling it -"+lightBlueThread.getState());
         lightBlueThread.start();
 
-        //lightBlueThread moved to Runnable state
+        //lightBlueThrea d moved to Runnable state
         System.out.println("State of lightBlueThread after calling .state() method on it -"+ lightBlueThread.getState());
 
         //moving whiteThread to timed waiting state
