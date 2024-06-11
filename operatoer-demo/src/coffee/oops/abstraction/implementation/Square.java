@@ -6,4 +6,7 @@ public class Square extends AbstractShape {
         // Write the own logic to drown Square
         System.out.println("Square drown");
     }
+
+    public void printSquare(int no) {
+    }
 }

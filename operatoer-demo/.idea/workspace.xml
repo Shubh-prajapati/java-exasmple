@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="CollectionDemo Program">
-      <change afterPath="$PROJECT_DIR$/src/collection/DuplicateFinder.java" afterDir="false" />
+    <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
+      <change afterPath="$PROJECT_DIR$/src/coffee/lambda/LamdaDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LogicDevelopment/StringPalimdrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicDevelopment/StringPalimdrome.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/UniqueArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/UniqueArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/InterThreadCommunicationDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/lock/ObjectLevelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/multithreading/lock/ObjectLevelDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/oops/abstraction/implementation/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/oops/abstraction/implementation/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +54,7 @@
     "Application.Buffer_and_Builder.executor": "Run",
     "Application.CarDriver.executor": "Run",
     "Application.ChairDriver.executor": "Run",
+    "Application.ClassLevelLockDemo.executor": "Run",
     "Application.CollectionDemo.executor": "Run",
     "Application.ConditionalLadderDemo.executor": "Run",
     "Application.CustomExceptionDemo.executor": "Run",
@@ -83,12 +86,16 @@
     "Application.HarmonicNumber.executor": "Run",
     "Application.HashMapDemo.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
+    "Application.InterThreadCommunicationDemo.executor": "Run",
+    "Application.LamdaDemo.executor": "Run",
     "Application.MethodOverloadingDemo.executor": "Run",
     "Application.MethodOverridingDemo.executor": "Run",
     "Application.MultiDimentioalAray.executor": "Run",
+    "Application.ObjectLevelDemo.executor": "Run",
     "Application.PatternForLoop.executor": "Run",
     "Application.PubgD.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
+    "Application.ReveseWhileLoops.executor": "Run",
     "Application.StaticBlock.executor": "Run",
     "Application.StaticBlock1.executor": "Run",
     "Application.StaticDemo.executor": "Run",
@@ -100,11 +107,17 @@
     "Application.SwtichDemo.executor": "Run",
     "Application.Table.executor": "Run",
     "Application.TernaryOperator.executor": "Run",
+    "Application.ThreadImplementationDemo.executor": "Run",
+    "Application.ThreadLifecycleDemo.executor": "Run",
+    "Application.ThreadPriorityDemo.executor": "Run",
+    "Application.ThreadYieldDemo.executor": "Run",
     "Application.UniqueArray.executor": "Run",
     "Application.UniversityInheritance.executor": "Run",
     "Application.WapperClassDemo.executor": "Run",
+    "Application.WhileLoopRevese.executor": "Run",
     "Application.WhileloopPattern1.executor": "Run",
     "Application.WhileloopPattern2.executor": "Run",
+    "Application.coffee.multithreading.thread.runnable.ThreadImplementationDemo.executor": "Run",
     "Application.inheritanceDemo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -137,13 +150,13 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.StringPalimdrome">
-    <configuration name="CollectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.CollectionDemo" />
+  <component name="RunManager" selected="Application.LamdaDemo">
+    <configuration name="ClassLevelLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.lock.ClassLevelLockDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="coffee.multithreading.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.DuplicateFinder" />
+    <configuration name="InterThreadCommunicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.interThreading.InterThreadCommunicationDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="coffee.multithreading.interThreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +177,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HarmonicNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicDevelopment.HarmonicNumber" />
+    <configuration name="LamdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.lambda.LamdaDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicDevelopment.*" />
+          <option name="PATTERN" value="coffee.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringPalimdrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LogicDevelopment.StringPalimdrome" />
+    <configuration name="ObjectLevelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.lock.ObjectLevelDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LogicDevelopment.*" />
+          <option name="PATTERN" value="coffee.multithreading.lock.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -190,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.UniqueArray" />
+    <configuration name="ThreadYieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.otherOperations.ThreadYieldDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="coffee.multithreading.otherOperations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringPalimdrome" />
-        <item itemvalue="Application.DuplicateFinder" />
-        <item itemvalue="Application.UniqueArray" />
-        <item itemvalue="Application.HarmonicNumber" />
-        <item itemvalue="Application.CollectionDemo" />
+        <item itemvalue="Application.LamdaDemo" />
+        <item itemvalue="Application.InterThreadCommunicationDemo" />
+        <item itemvalue="Application.ObjectLevelDemo" />
+        <item itemvalue="Application.ClassLevelLockDemo" />
+        <item itemvalue="Application.ThreadYieldDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +331,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717064060212</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Java Programs">
+      <option name="closed" value="true" />
+      <created>1717396864848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1717396864848</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Threading Program">
+      <option name="closed" value="true" />
+      <created>1718015207613</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718015207613</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -335,155 +364,202 @@
     <MESSAGE value="HashSet Demo Program" />
     <MESSAGE value="HashMap Demo Program" />
     <MESSAGE value="CollectionDemo Program" />
-    <option name="LAST_COMMIT_MESSAGE" value="CollectionDemo Program" />
+    <MESSAGE value="Java Programs" />
+    <MESSAGE value="Threading Program" />
+    <option name="LAST_COMMIT_MESSAGE" value="Threading Program" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Loops/ForNumberLoops.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/Loops/ForNumberLoops.java</url>
           <line>3</line>
-          <properties class="Loops.ForNumberLoops" method="main">
+          <properties class="java.Loops.ForNumberLoops" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Loops/ForLoopSum.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/Loops/ForLoopSum.java</url>
           <line>3</line>
-          <properties class="Loops.ForLoopSum" method="main">
+          <properties class="java.Loops.ForLoopSum" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LogicDevelopment/ReverseNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/LogicDevelopment/ReverseNumber.java</url>
           <line>3</line>
-          <properties class="LogicDevelopment.ReverseNumber" method="main">
+          <properties class="java.LogicDevelopment.ReverseNumber" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/staticClazz/StaticDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/staticClazz/StaticDemo.java</url>
           <line>3</line>
-          <properties class="staticClazz.StaticDemo" method="main">
+          <properties class="java.staticClazz.StaticDemo" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/exceptionHandling/CustomExceptionDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/exceptionHandling/CustomExceptionDemo.java</url>
           <line>25</line>
-          <properties class="exceptionHandling.CustomExceptionDemo" method="main">
+          <properties class="java.exceptionHandling.CustomExceptionDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LogicDevelopment/StaticBlock.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/LogicDevelopment/StaticBlock.java</url>
           <line>6</line>
-          <properties class="LogicDevelopment.StaticBlock" method="main">
+          <properties class="java.LogicDevelopment.StaticBlock">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/inheritanceDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/inheritanceDemo.java</url>
           <line>9</line>
-          <properties class="oops.inhertance.service.inheritanceDemo" method="main">
+          <properties class="java.oops.inhertance.service.inheritanceDemo">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/AccountInheritance.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/AccountInheritance.java</url>
           <line>5</line>
-          <properties class="oops.inhertance.service.AccountInheritance" method="main">
+          <properties class="java.oops.inhertance.service.AccountInheritance" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/UniversityInheritance.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/UniversityInheritance.java</url>
           <line>2</line>
-          <properties class="oops.inhertance.service.UniversityInheritance" method="main">
+          <properties class="java.oops.inhertance.service.UniversityInheritance" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/LogicDevelopment/SwapingNumber.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/LogicDevelopment/SwapingNumber.java</url>
           <line>25</line>
-          <properties class="LogicDevelopment.SwapingNumber" method="main">
+          <properties class="java.LogicDevelopment.SwapingNumber" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/collection/UniqueArray.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/collection/UniqueArray.java</url>
           <line>6</line>
-          <properties class="collection.UniqueArray" method="main">
+          <properties class="java.collection.UniqueArray" method="main">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="43" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/coffee/multithreading/scheduling/ThreadPriorityDemo.java</url>
+          <line>39</line>
+          <properties class="coffee.multithreading.scheduling.ThreadPriorityDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/coffee/multithreading/otherOperations/ThreadYieldDemo.java</url>
+          <line>8</line>
+          <properties class="coffee.multithreading.otherOperations.ThreadYieldDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/coffee/multithreading/lock/ClassLevelLockDemo.java</url>
+          <line>15</line>
+          <properties class="coffee.multithreading.lock.ClassLevelLockDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/coffee/multithreading/lock/ObjectLevelDemo.java</url>
+          <line>15</line>
+          <properties class="coffee.multithreading.lock.ObjectLevelDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Loops/ForDigit.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/Loops/ForDigit.java</url>
           <line>5</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Loops/ForDigit.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/Loops/ForDigit.java</url>
           <line>10</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exceptionHandling/ExceptionWithThrowsDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/exceptionHandling/ExceptionWithThrowsDemo.java</url>
           <line>31</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/exceptionHandling/ExceptionWithThrowsDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/exceptionHandling/ExceptionWithThrowsDemo.java</url>
           <line>11</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/inheritanceDemo.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/inheritanceDemo.java</url>
           <line>10</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/AccountInheritance.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/AccountInheritance.java</url>
           <line>6</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oops/inhertance/service/UniversityInheritance.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/inhertance/service/UniversityInheritance.java</url>
           <line>5</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/LogicDevelopment/FinbinassiSeries.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/LogicDevelopment/FinbinassiSeries.java</url>
           <line>5</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/oops/classAndObject/Services/ChairDriver.java</url>
+          <url>file://$PROJECT_DIR$/src/coffee/oops/classAndObject/Services/ChairDriver.java</url>
           <line>6</line>
           <option name="timeStamp" value="42" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.SecurityException" package="java.lang" />
+          <option name="timeStamp" value="44" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
