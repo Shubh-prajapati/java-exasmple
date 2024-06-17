@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/lambda/LamdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/FunctionInterface/FunctionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/FunctionInterface/StringAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/Stream/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/interThreading/InterThreadCommunicationDemo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/lock/ObjectLevelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/multithreading/lock/ObjectLevelDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/oops/abstraction/implementation/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/oops/abstraction/implementation/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/lambda/LamdaDemo.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,6 +33,9 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/collection/CollectionDemo.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/collection/HashMapDemo.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -83,11 +88,14 @@
     "Application.ForReverseNumber.executor": "Run",
     "Application.ForSquarePattern.executor": "Run",
     "Application.ForeachLoopDemo.executor": "Run",
+    "Application.FunctionInterface.executor": "Run",
     "Application.HarmonicNumber.executor": "Run",
     "Application.HashMapDemo.executor": "Run",
     "Application.HashSetDemo.executor": "Run",
     "Application.InterThreadCommunicationDemo.executor": "Run",
+    "Application.LambdaDemo.executor": "Run",
     "Application.LamdaDemo.executor": "Run",
+    "Application.LargestValue.executor": "Run",
     "Application.MethodOverloadingDemo.executor": "Run",
     "Application.MethodOverridingDemo.executor": "Run",
     "Application.MultiDimentioalAray.executor": "Run",
@@ -100,6 +108,7 @@
     "Application.StaticBlock1.executor": "Run",
     "Application.StaticDemo.executor": "Run",
     "Application.StaticVariable.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
     "Application.StringMethod.executor": "Run",
     "Application.StringPalimdrome.executor": "Run",
     "Application.Strings.executor": "Run",
@@ -124,11 +133,16 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "practice/java-17",
     "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="coffee.FunctionInterface" />
       <recent name="oops.classAndObject.model.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -150,13 +164,13 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.LamdaDemo">
-    <configuration name="ClassLevelLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.lock.ClassLevelLockDemo" />
+  <component name="RunManager" selected="Application.FunctionInterface">
+    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.collection.ArrayListDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.multithreading.lock.*" />
+          <option name="PATTERN" value="coffee.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +178,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterThreadCommunicationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.interThreading.InterThreadCommunicationDemo" />
+    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.FunctionInterface.FunctionInterface" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.multithreading.interThreading.*" />
+          <option name="PATTERN" value="coffee.FunctionInterface.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,8 +191,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.lambda.LamdaDemo" />
+    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.lambda.LambdaDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -190,12 +204,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectLevelDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.lock.ObjectLevelDemo" />
+    <configuration name="LargestValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.LargestValue" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.multithreading.lock.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadYieldDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.multithreading.otherOperations.ThreadYieldDemo" />
+    <configuration name="StreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.Stream.StreamDemo" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.multithreading.otherOperations.*" />
+          <option name="PATTERN" value="coffee.Stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,13 +232,20 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LamdaDemo" />
-        <item itemvalue="Application.InterThreadCommunicationDemo" />
-        <item itemvalue="Application.ObjectLevelDemo" />
-        <item itemvalue="Application.ClassLevelLockDemo" />
-        <item itemvalue="Application.ThreadYieldDemo" />
+        <item itemvalue="Application.FunctionInterface" />
+        <item itemvalue="Application.ArrayListDemo" />
+        <item itemvalue="Application.StreamDemo" />
+        <item itemvalue="Application.LargestValue" />
+        <item itemvalue="Application.LambdaDemo" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -506,6 +527,15 @@
           </properties>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
+          <line>11</line>
+          <properties class="coffee.Stream.StreamDemo" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/coffee/Loops/ForDigit.java</url>
           <line>5</line>
@@ -555,6 +585,16 @@
           <url>file://$PROJECT_DIR$/src/coffee/multithreading/interThreading/CustomerAccount.java</url>
           <line>17</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />
