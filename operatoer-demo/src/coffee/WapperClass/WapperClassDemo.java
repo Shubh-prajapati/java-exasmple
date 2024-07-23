@@ -22,7 +22,7 @@ public class WapperClassDemo {
         Double doubleWapperNo=doubleNo;
         Character characterNo=character;
         Byte byteWapperNo=aByte;
-        Boolean booleanWapper=flag;
+        Boolean booleanWapper = flag;
         Long longWapperId=longId;
         Short shortWapperNo=shortNo;
 
