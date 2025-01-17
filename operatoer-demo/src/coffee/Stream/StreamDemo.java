@@ -12,7 +12,7 @@ public class StreamDemo {
     public static void main(String[] args) {
         StreamDemo streamDemo = new StreamDemo();
         List<Product> products = streamDemo.generateListData();
-        //-----------------------------------------------------------
+       //------------------------------------------
 
         // without streams
         List<Float> productPriceList = new ArrayList<>();
@@ -40,6 +40,7 @@ public class StreamDemo {
 
         System.out.println("---------------------------------");
         System.out.println("Entry processing without stream:");
+
         // iterating over map using iterator
         Iterator<Entry<Integer, Product>> iterator = productMap.entrySet().iterator();
         while (iterator.hasNext()) {
@@ -49,6 +50,7 @@ public class StreamDemo {
 
         System.out.println("---------------------------------");
         System.out.println("Entry processing with stream:");
+
         // parallel stream
         productMap.entrySet().parallelStream().forEach(entry -> {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());

@@ -5,15 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/../jdbc-connectivity-demo/garbage_management_system/src/main/java/com/codenza/garbage_management_system/controller/BikeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc-connectivity-demo/garbage_management_system/src/main/java/com/codenza/garbage_management_system/controller/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc-connectivity-demo/garbage_management_system/src/main/java/webapp/add-bike.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc-connectivity-demo/garbage_management_system/src/main/java/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jdbc-connectivity-demo/garbage_management_system/src/main/java/webapp/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/Square1Pattern.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/SquarePattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp-servalate-examples/Singleton-example/.idea/Singleton-example.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp-servalate-examples/Singleton-example/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp-servalate-examples/Singleton-example/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp-servalate-examples/Singleton-example/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsp-servalate-examples/Singleton-example/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/operatoer-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/operatoer-demo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/WapperClass/WapperClassDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/WapperClass/WapperClassDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,98 +50,100 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.AbstractionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccessModifierDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.AccountInheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArithmaticOperator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArmstrongNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrayListDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Buffer_and_Builder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CarDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ChairDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassLevelLockDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CollectionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConditionalLadderDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CustomExceptionDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DefenceInheritnace.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DoWhileLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DuplicateFinder.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EndlessWhileloop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EngineDriver.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EnumDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionWithThrowsDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ExceptionWithTryCatchDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FinbinassiSeries.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForButerflyPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForCountPrimeNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForDaigonalPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForDigit.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForEachArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForHalfPyramid.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoopEvenOdd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoopSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoopsTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForMatrixPattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForNumberLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForPrimeAlpha.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForReverseNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForSquarePattern.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForeachLoopDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HarmonicNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashMapDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HashSetDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.InterThreadCommunicationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LambdaDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LamdaDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LargestValue.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodOverloadingDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MethodOverridingDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiDimentioalAray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectLevelDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PatternForLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PubgD.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReverseNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReveseWhileLoops.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticBlock.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticBlock1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StaticVariable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StreamDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringMethod.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringPalimdrome.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Strings.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwapingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SwtichDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Table.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TernaryOperator.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadImplementationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadLifecycleDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadPriorityDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreadYieldDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueArray.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniversityInheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WapperClassDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileLoopRevese.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileloopPattern1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.WhileloopPattern2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.coffee.multithreading.thread.runnable.ThreadImplementationDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.inheritanceDemo.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;practice/java-17&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Subversion.SSH&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.AbstractionDemo.executor": "Run",
+    "Application.AccessModifierDemo.executor": "Run",
+    "Application.AccountInheritance.executor": "Run",
+    "Application.ArithmaticOperator.executor": "Run",
+    "Application.ArmstrongNumber.executor": "Run",
+    "Application.ArrayListDemo.executor": "Run",
+    "Application.Buffer_and_Builder.executor": "Run",
+    "Application.CarDriver.executor": "Run",
+    "Application.ChairDriver.executor": "Run",
+    "Application.ClassLevelLockDemo.executor": "Run",
+    "Application.CollectionDemo.executor": "Run",
+    "Application.ConditionalLadderDemo.executor": "Run",
+    "Application.CustomExceptionDemo.executor": "Run",
+    "Application.DefenceInheritnace.executor": "Run",
+    "Application.DoWhileLoop.executor": "Run",
+    "Application.DuplicateFinder.executor": "Run",
+    "Application.EndlessWhileloop.executor": "Run",
+    "Application.EngineDriver.executor": "Run",
+    "Application.EnumDemo.executor": "Run",
+    "Application.ExceptionWithThrowsDemo.executor": "Run",
+    "Application.ExceptionWithTryCatchDemo.executor": "Run",
+    "Application.FinbinassiSeries.executor": "Run",
+    "Application.ForButerflyPattern.executor": "Run",
+    "Application.ForCountPrimeNumber.executor": "Run",
+    "Application.ForDaigonalPattern.executor": "Run",
+    "Application.ForDigit.executor": "Run",
+    "Application.ForEachArray.executor": "Run",
+    "Application.ForHalfPyramid.executor": "Run",
+    "Application.ForLoopEvenOdd.executor": "Run",
+    "Application.ForLoopSum.executor": "Run",
+    "Application.ForLoops.executor": "Run",
+    "Application.ForLoopsTable.executor": "Run",
+    "Application.ForMatrixPattern.executor": "Run",
+    "Application.ForNumberLoops.executor": "Run",
+    "Application.ForPrimeAlpha.executor": "Run",
+    "Application.ForReverseNumber.executor": "Run",
+    "Application.ForSquarePattern.executor": "Run",
+    "Application.ForeachLoopDemo.executor": "Run",
+    "Application.FunctionInterface.executor": "Run",
+    "Application.HarmonicNumber.executor": "Run",
+    "Application.HashMapDemo.executor": "Run",
+    "Application.HashSetDemo.executor": "Run",
+    "Application.InterThreadCommunicationDemo.executor": "Run",
+    "Application.LambdaDemo.executor": "Run",
+    "Application.LamdaDemo.executor": "Run",
+    "Application.LargestValue.executor": "Run",
+    "Application.MethodOverloadingDemo.executor": "Run",
+    "Application.MethodOverridingDemo.executor": "Run",
+    "Application.MultiDimentioalAray.executor": "Run",
+    "Application.ObjectLevelDemo.executor": "Run",
+    "Application.PatternForLoop.executor": "Run",
+    "Application.PubgD.executor": "Run",
+    "Application.ReverseNumber.executor": "Run",
+    "Application.ReveseWhileLoops.executor": "Run",
+    "Application.Square1Pattern.executor": "Run",
+    "Application.SquarePattern.executor": "Run",
+    "Application.StaticBlock.executor": "Run",
+    "Application.StaticBlock1.executor": "Run",
+    "Application.StaticDemo.executor": "Run",
+    "Application.StaticVariable.executor": "Run",
+    "Application.StreamDemo.executor": "Run",
+    "Application.StringMethod.executor": "Run",
+    "Application.StringPalimdrome.executor": "Run",
+    "Application.Strings.executor": "Run",
+    "Application.SwapingNumber.executor": "Run",
+    "Application.SwtichDemo.executor": "Run",
+    "Application.Table.executor": "Run",
+    "Application.TernaryOperator.executor": "Run",
+    "Application.ThreadImplementationDemo.executor": "Run",
+    "Application.ThreadLifecycleDemo.executor": "Run",
+    "Application.ThreadPriorityDemo.executor": "Run",
+    "Application.ThreadYieldDemo.executor": "Run",
+    "Application.UniqueArray.executor": "Run",
+    "Application.UniversityInheritance.executor": "Run",
+    "Application.WapperClassDemo.executor": "Run",
+    "Application.WhileLoopRevese.executor": "Run",
+    "Application.WhileloopPattern1.executor": "Run",
+    "Application.WhileloopPattern2.executor": "Run",
+    "Application.coffee.multithreading.thread.runnable.ThreadImplementationDemo.executor": "Run",
+    "Application.inheritanceDemo.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "practice/java-17",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "vcs.Subversion.SSH"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="coffee.FunctionInterface" />
@@ -165,7 +168,7 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.FunctionInterface">
+  <component name="RunManager" selected="Application.Square1Pattern">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee.collection.ArrayListDemo" />
       <module name="operatoer-demo" />
@@ -192,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.lambda.LambdaDemo" />
+    <configuration name="Square1Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.Square1Pattern" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.lambda.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,8 +208,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LargestValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.LargestValue" />
+    <configuration name="SquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.SquarePattern" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -233,18 +236,18 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Square1Pattern" />
+        <item itemvalue="Application.SquarePattern" />
         <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.StreamDemo" />
         <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.LargestValue" />
-        <item itemvalue="Application.LambdaDemo" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
@@ -583,12 +586,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
-          <line>87</line>
+          <line>89</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
-          <line>62</line>
+          <line>64</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
