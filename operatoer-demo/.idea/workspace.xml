@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/RangePrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
