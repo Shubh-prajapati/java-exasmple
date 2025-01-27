@@ -11,8 +11,6 @@ public class PrimeApha {
         System.out.println("Enter the Alphabet End ");
         char end =sc.next().charAt(0);
 
-        int count=0;
-
         for(char i=start; i<=end; i++)
         {
             int j;
@@ -22,7 +20,6 @@ public class PrimeApha {
                     break;
                 }
                 if(i==j){
-                    count++;
                 }
 
             }

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeApha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/EvenOddPrimeAdd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeApha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeApha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     "Application.EndlessWhileloop.executor": "Run",
     "Application.EngineDriver.executor": "Run",
     "Application.EnumDemo.executor": "Run",
+    "Application.EvenOddPrimeAdd.executor": "Run",
     "Application.ExceptionWithThrowsDemo.executor": "Run",
     "Application.ExceptionWithTryCatchDemo.executor": "Run",
     "Application.FinbinassiSeries.executor": "Run",
@@ -98,6 +99,7 @@
     "Application.MultiDimentioalAray.executor": "Run",
     "Application.ObjectLevelDemo.executor": "Run",
     "Application.PatternForLoop.executor": "Run",
+    "Application.PrimeApha.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PubgD.executor": "Run",
     "Application.RangePrimeNumber.executor": "Run",
@@ -165,7 +167,7 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumber">
+  <component name="RunManager" selected="Application.EvenOddPrimeAdd">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ArmstrongNumber" />
       <module name="operatoer-demo" />
@@ -179,12 +181,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstanceOfOperator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.Operator.InstanceOfOperator" />
+    <configuration name="EvenOddPrimeAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.EvenOddPrimeAdd" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.Operator.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeApha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.PrimeApha" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,26 +233,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquarePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.SquarePattern" />
-      <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EvenOddPrimeAdd" />
+        <item itemvalue="Application.PrimeApha" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.ArmstrongNumber" />
         <item itemvalue="Application.RangePrimeNumber" />
-        <item itemvalue="Application.InstanceOfOperator" />
-        <item itemvalue="Application.SquarePattern" />
       </list>
     </recent_temporary>
   </component>
