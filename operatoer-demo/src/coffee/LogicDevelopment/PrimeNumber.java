@@ -2,7 +2,7 @@ package coffee.LogicDevelopment;
 
 public class PrimeNumber {
     public static void main(String[] args) {
-        int num=113;
+        int num=15;
         int i;
         if(num==1){
             System.out.println("Its a Prime Number");
@@ -26,9 +26,6 @@ public class PrimeNumber {
             }
 
         }
-
-
-
     }
 
 }

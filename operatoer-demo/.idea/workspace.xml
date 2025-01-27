@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/RangePrimeNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeNumber.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +99,7 @@
     "Application.PatternForLoop.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
     "Application.PubgD.executor": "Run",
+    "Application.RangePrimeNumber.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
     "Application.ReveseWhileLoops.executor": "Run",
     "Application.Square1Pattern.executor": "Run",
@@ -164,12 +165,12 @@
     </myKeys>
   </component>
   <component name="RunManager" selected="Application.PrimeNumber">
-    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.FunctionInterface.FunctionInterface" />
+    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ArmstrongNumber" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.FunctionInterface.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -203,8 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Square1Pattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.Square1Pattern" />
+    <configuration name="RangePrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.RangePrimeNumber" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -232,10 +233,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.PrimeNumber" />
+        <item itemvalue="Application.ArmstrongNumber" />
+        <item itemvalue="Application.RangePrimeNumber" />
         <item itemvalue="Application.InstanceOfOperator" />
         <item itemvalue="Application.SquarePattern" />
-        <item itemvalue="Application.Square1Pattern" />
-        <item itemvalue="Application.FunctionInterface" />
       </list>
     </recent_temporary>
   </component>
