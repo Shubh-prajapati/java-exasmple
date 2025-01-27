@@ -15,7 +15,6 @@ public class EvenOddPrimeAdd {
          evenodd(ip);
 
     }
-
     private static void prime(int p) {
 
       int i;
@@ -31,9 +30,6 @@ public class EvenOddPrimeAdd {
         else {
             System.out.println(p+"is not a Prime Number");
         }
-        
-        
-       
     }
 
     private static void evenodd(int ip)
@@ -47,6 +43,4 @@ public class EvenOddPrimeAdd {
             
         }
     }
-
-
 }
