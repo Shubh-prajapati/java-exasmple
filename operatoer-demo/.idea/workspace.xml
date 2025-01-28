@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/DisplayTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/ProductOfTwoNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/DisplayTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/DisplayTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,7 @@
     "Application.PatternForLoop.executor": "Run",
     "Application.PrimeApha.executor": "Run",
     "Application.PrimeNumber.executor": "Run",
+    "Application.ProductOfTwoNumber.executor": "Run",
     "Application.PubgD.executor": "Run",
     "Application.RangePrimeNumber.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
@@ -169,19 +171,6 @@
     </myKeys>
   </component>
   <component name="RunManager" selected="Application.DisplayTable">
-    <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ArmstrongNumber" />
-      <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DisplayTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.DisplayTable" />
       <module name="operatoer-demo" />
@@ -234,13 +223,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductOfTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ProductOfTwoNumber" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DisplayTable" />
+        <item itemvalue="Application.ProductOfTwoNumber" />
         <item itemvalue="Application.EvenOddPrimeAdd" />
         <item itemvalue="Application.PrimeApha" />
         <item itemvalue="Application.PrimeNumber" />
-        <item itemvalue="Application.ArmstrongNumber" />
       </list>
     </recent_temporary>
   </component>
