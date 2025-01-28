@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/EvenOddPrimeAdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/DisplayTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeApha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/PrimeApha.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
     "Application.ConditionalLadderDemo.executor": "Run",
     "Application.CustomExceptionDemo.executor": "Run",
     "Application.DefenceInheritnace.executor": "Run",
+    "Application.DisplayTable.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
     "Application.DuplicateFinder.executor": "Run",
     "Application.EndlessWhileloop.executor": "Run",
@@ -137,6 +137,7 @@
     "git-widget-placeholder": "practice/java-17",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/stepup_and_learn/Project/star-agile-insurance-project",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -167,9 +168,22 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.EvenOddPrimeAdd">
+  <component name="RunManager" selected="Application.DisplayTable">
     <configuration name="ArmstrongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ArmstrongNumber" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.DisplayTable" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -220,26 +234,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RangePrimeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.RangePrimeNumber" />
-      <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DisplayTable" />
         <item itemvalue="Application.EvenOddPrimeAdd" />
         <item itemvalue="Application.PrimeApha" />
         <item itemvalue="Application.PrimeNumber" />
         <item itemvalue="Application.ArmstrongNumber" />
-        <item itemvalue="Application.RangePrimeNumber" />
       </list>
     </recent_temporary>
   </component>
