@@ -2,9 +2,10 @@ package coffee.LogicDevelopment;
 import java.util.Scanner;
 public class ReverseNumber {
     public static void main(String[] args) {
+        int no, rev=0, r,a ;
         Scanner sc = new Scanner(System.in);
         System.out.println("Please Enter the Number :");
-        int no = Integer.valueOf(sc.nextLine());
+            no=sc.nextInt();
 
         // input 134-remainder=4
         // input 13-remainder=3
@@ -49,6 +50,19 @@ public class ReverseNumber {
 //            System.out.println("Reverse No:"+reverseNo);
 //        }
 //        System.out.println(reverseNo);
+
+        //Fourth logic to print reverse Number
+//        a=no;
+//        while(no>0){
+//            r=no%10;
+//            rev=rev*10+r;
+//            no=no/10;
+//        }
+//        System.out.println("Reverse: "+rev);
+//
+
+
+
 
         }
 

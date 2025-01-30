@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/Loops/EvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/Loops/WhileLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/FactorialNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/LogicDevelopment/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/Loops/EvenOdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/Loops/EvenOdd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +71,7 @@
     "Application.EvenOddPrimeAdd.executor": "Run",
     "Application.ExceptionWithThrowsDemo.executor": "Run",
     "Application.ExceptionWithTryCatchDemo.executor": "Run",
+    "Application.FactorialNumber.executor": "Run",
     "Application.FinbinassiSeries.executor": "Run",
     "Application.ForButerflyPattern.executor": "Run",
     "Application.ForCountPrimeNumber.executor": "Run",
@@ -172,7 +174,7 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.EvenOdd">
+  <component name="RunManager" selected="Application.ReverseNumber">
     <configuration name="DisplayTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.DisplayTable" />
       <module name="operatoer-demo" />
@@ -199,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EvenOddPrimeAdd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.EvenOddPrimeAdd" />
+    <configuration name="FactorialNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.FactorialNumber" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.Loops.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,12 +214,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductOfTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ProductOfTwoNumber" />
+    <configuration name="ReverseNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.LogicDevelopment.ReverseNumber" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.Loops.*" />
+          <option name="PATTERN" value="coffee.LogicDevelopment.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseNumber" />
+        <item itemvalue="Application.FactorialNumber" />
         <item itemvalue="Application.EvenOdd" />
         <item itemvalue="Application.WhileLoop" />
         <item itemvalue="Application.DisplayTable" />
-        <item itemvalue="Application.ProductOfTwoNumber" />
-        <item itemvalue="Application.EvenOddPrimeAdd" />
       </list>
     </recent_temporary>
   </component>
@@ -420,15 +422,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/coffee/LogicDevelopment/ReverseNumber.java</url>
-          <line>3</line>
-          <properties class="java.LogicDevelopment.ReverseNumber" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/coffee/staticClazz/StaticDemo.java</url>

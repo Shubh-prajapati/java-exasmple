@@ -11,7 +11,6 @@ public class EvenOdd {
         do {
             if (i % 2 == 0) {
                 System.out.println("This is Even Number");
-                i++;
 
             }break;
 
