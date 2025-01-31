@@ -14,8 +14,7 @@ public class FinbinassiSeries {
         for(int i=1; i<End; i++)
         {
             n3=n1+n2;
-
-
+            
             if(n3>=Start && n3<=End)
             {
                 System.out.println(n3);
@@ -24,6 +23,8 @@ public class FinbinassiSeries {
             n2=n3;
 
         }
+
+
     }
 
 }
