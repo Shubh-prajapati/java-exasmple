@@ -1,2 +1,7 @@
-package coffee.FunctionInterface;public interface Square {
+package coffee.FunctionInterface;
+
+@FunctionalInterface
+public interface Square {
+
+void printSquare(int no);
 }

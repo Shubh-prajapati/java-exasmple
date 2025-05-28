@@ -1,8 +1,6 @@
 package coffee.multithreading.thread.lifecycle;
 // Java program to demonstrate thread state & lifecyle
 
-import coffee.multithreading.thread.ThreadImplementationDemo;
-
 class BlueThread implements Runnable{
     public void run(){
         try{
@@ -45,7 +43,7 @@ public class ThreadLifecycleDemo  implements  Runnable{
         System.out.println("State of lightBlueThread after calling it -"+lightBlueThread.getState());
         lightBlueThread.start();
 
-        //lightBlueThrea d moved to Runnable state
+        //lightBlueThread moved to Runnable state
         System.out.println("State of lightBlueThread after calling .state() method on it -"+ lightBlueThread.getState());
 
         //moving whiteThread to timed waiting state

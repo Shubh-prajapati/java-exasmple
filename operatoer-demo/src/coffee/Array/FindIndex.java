@@ -19,7 +19,7 @@ public class FindIndex {
         }
 
         if (flag==true){
-            System.out.println("The value if found at"+i+"tn Index");
+            System.out.println("The value if found at "+i+" th Index");
         }
         else{
             System.out.println("Element not Found!");

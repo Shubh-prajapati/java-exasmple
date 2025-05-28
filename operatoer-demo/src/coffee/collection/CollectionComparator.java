@@ -27,7 +27,7 @@ public class CollectionComparator {
         collectionComparators.add(new CollectionComparator("Akshit",3.9));
 
 
-        Comparator<CollectionComparator>comparator=Comparator.comparing(CollectionComparator::getGpa).reversed();
+        Comparator<CollectionComparator> comparator=Comparator.comparing(CollectionComparator::getGpa).reversed();
          collectionComparators.sort(comparator);
             for (CollectionComparator c : collectionComparators){
                 System.out.println(c.getName()+":" +c.getGpa());

@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class CustomExceptionDemo {
     public static void acceptpersonDetails() throws NameNotProvidedException, CityNotProvidedException {
-        System.out.println("Please Enter Name for persons: ");
         Scanner sc=new Scanner(System.in);
+        System.out.println("Please Enter Name for persons: ");
+
         String name=sc.nextLine();
         System.out.println("please enter City for Person");
         String city =sc.nextLine();
