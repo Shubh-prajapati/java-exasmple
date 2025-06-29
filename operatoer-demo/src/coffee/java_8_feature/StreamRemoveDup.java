@@ -7,7 +7,7 @@ public class StreamRemoveDup {
         String s="abddacheegh";
 
 
-//        s.chars().distinct().mapToObj(x->(char)x).forEach(System.out::print);
-        Arrays.stream(s.split("")).distinct().forEach(System.out::print);
+//     s.chars().distinct().mapToObj(x->(char)x).forEach(System.out::print);
+   Arrays.stream(s.split("")).distinct().forEach(System.out::print);
     }
 }

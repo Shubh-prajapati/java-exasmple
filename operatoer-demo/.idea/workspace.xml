@@ -5,38 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ed8ed09-826c-4b52-b9a6-e047cac1733e" name="Changes" comment="Threading Program">
-      <change afterPath="$PROJECT_DIR$/src/coffee/DemoProject/DemoProject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/FunctionInterface/LambdaDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/FunctionInterface/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/DuplicateCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/SwapNumberWIthOutThirdNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/LogicDevelopment/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/CopyOnWriteArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/Gc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/IdentityHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/ListLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/collection/SortedMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/exceptionHandling/HandleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/DefaultInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/EachWordOccurence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/FindMaxLength.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/Myclass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamHighestInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamRemoveDup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamSecondHighest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/VowelsStreame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/multithreading/mythread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/multithreading/synchronization/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/multithreading/synchronization/MyT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coffee/multithreading/synchronization/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/DEMO1/Demo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/SecnarioBase/Basic/ArithmeticSecnario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/Singleton/MySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/Singleton/TestSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/EvenOddStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/IntegerStreame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/RepetedChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/ReverseOrderStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Singleton-example" beforeDir="false" afterPath="$PROJECT_DIR$/../Singleton-example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/Array/FindIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/Array/FindIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/collection/ArrayListDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/collection/ArrayListDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/collection/CollectionComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/collection/CollectionComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/exceptionHandling/CustomExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/exceptionHandling/CustomExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coffee/multithreading/thread/lifecycle/ThreadLifecycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/multithreading/thread/lifecycle/ThreadLifecycleDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/java_8_feature/EachWordOccurence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/EachWordOccurence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/java_8_feature/Method_Reffrence2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/Method_Reffrence2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamRemoveDup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamRemoveDup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamSecondHighest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/StreamSecondHighest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/coffee/java_8_feature/VowelsStreame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/coffee/java_8_feature/VowelsStreame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +43,7 @@
     <setting file="file://$PROJECT_DIR$/src/collection/HashMapDemo.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -79,6 +62,7 @@
     "Application.AccessModifierDemo.executor": "Run",
     "Application.AccountInheritance.executor": "Run",
     "Application.ArithmaticOperator.executor": "Run",
+    "Application.ArithmeticSecnario.executor": "Run",
     "Application.ArmstrongNumber.executor": "Run",
     "Application.ArrayListDemo.executor": "Run",
     "Application.Buffer_and_Builder.executor": "Run",
@@ -92,6 +76,7 @@
     "Application.CopyOnWriteArrayListDemo.executor": "Run",
     "Application.CustomExceptionDemo.executor": "Run",
     "Application.DefenceInheritnace.executor": "Run",
+    "Application.Demo1.executor": "Run",
     "Application.DisplayTable.executor": "Run",
     "Application.DoWhileLoop.executor": "Run",
     "Application.DuplicateCharacter.executor": "Run",
@@ -102,6 +87,7 @@
     "Application.EnumDemo.executor": "Run",
     "Application.EvenOdd.executor": "Run",
     "Application.EvenOddPrimeAdd.executor": "Run",
+    "Application.EvenOddStream.executor": "Run",
     "Application.ExceptionWithThrowsDemo.executor": "Run",
     "Application.ExceptionWithTryCatchDemo.executor": "Run",
     "Application.FactorialNumber.executor": "Run",
@@ -134,6 +120,7 @@
     "Application.HashSetDemo.executor": "Run",
     "Application.IdentityHashMap.executor": "Run",
     "Application.InstanceOfOperator.executor": "Run",
+    "Application.IntegerStreame.executor": "Run",
     "Application.InterThreadCommunicationDemo.executor": "Run",
     "Application.JavaDemo8.executor": "Run",
     "Application.Java_ConsumerObject (1).executor": "Run",
@@ -162,7 +149,9 @@
     "Application.ProductOfTwoNumber.executor": "Run",
     "Application.PubgD.executor": "Run",
     "Application.RangePrimeNumber.executor": "Run",
+    "Application.RepetedChar.executor": "Run",
     "Application.ReverseNumber.executor": "Run",
+    "Application.ReverseOrderStream.executor": "Run",
     "Application.ReveseWhileLoops.executor": "Run",
     "Application.SortedMapDemo.executor": "Run",
     "Application.Square1Pattern.executor": "Run",
@@ -185,6 +174,7 @@
     "Application.Table.executor": "Run",
     "Application.TernaryOperator.executor": "Run",
     "Application.Test.executor": "Run",
+    "Application.TestSingleton.executor": "Run",
     "Application.ThreadImplementationDemo.executor": "Run",
     "Application.ThreadLifecycleDemo.executor": "Run",
     "Application.ThreadPriorityDemo.executor": "Run",
@@ -207,7 +197,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/stepup_and_learn/Project/star-agile-insurance-project",
-    "project.structure.last.edited": "SDKs",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.editor"
@@ -237,9 +227,35 @@
       <visibility group="org.jetbrains.plugins.gradle.execution.GradleRunAnythingProvider" flag="false" />
     </myKeys>
   </component>
-  <component name="RunManager" selected="Application.VowelsStreame">
-    <configuration name="EachWordOccurence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.EachWordOccurence" />
+  <component name="RunManager" selected="Application.ArithmeticSecnario">
+    <configuration name="ArithmeticSecnario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.SecnarioBase.Basic.ArithmeticSecnario" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coffee.SecnarioBase.Basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.DEMO1.Demo1" />
+      <module name="operatoer-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="coffee.DEMO1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Method_Refference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.Method_Refference" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -251,8 +267,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMaxLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.FindMaxLength" />
+    <configuration name="Method_Reffrence2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.Method_Reffrence2" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
@@ -264,38 +280,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamHighestInt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.StreamHighestInt" />
+    <configuration name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="coffee.Singleton.TestSingleton" />
       <module name="operatoer-demo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="coffee.java_8_feature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamSecondHighest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.StreamSecondHighest" />
-      <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee.java_8_feature.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VowelsStreame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="coffee.java_8_feature.VowelsStreame" />
-      <module name="operatoer-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="coffee.java_8_feature.*" />
+          <option name="PATTERN" value="coffee.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -304,19 +294,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.EachWordOccurence" />
-      <item itemvalue="Application.VowelsStreame" />
-      <item itemvalue="Application.StreamHighestInt" />
-      <item itemvalue="Application.StreamSecondHighest" />
-      <item itemvalue="Application.FindMaxLength" />
+      <item itemvalue="Application.ArithmeticSecnario" />
+      <item itemvalue="Application.Demo1" />
+      <item itemvalue="Application.TestSingleton" />
+      <item itemvalue="Application.Method_Refference" />
+      <item itemvalue="Application.Method_Reffrence2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VowelsStreame" />
-        <item itemvalue="Application.StreamSecondHighest" />
-        <item itemvalue="Application.StreamHighestInt" />
-        <item itemvalue="Application.EachWordOccurence" />
-        <item itemvalue="Application.FindMaxLength" />
+        <item itemvalue="Application.ArithmeticSecnario" />
+        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.TestSingleton" />
+        <item itemvalue="Application.Method_Reffrence2" />
+        <item itemvalue="Application.Method_Refference" />
       </list>
     </recent_temporary>
   </component>
@@ -647,6 +637,11 @@
           <url>file://$PROJECT_DIR$/src/coffee/Stream/StreamDemo.java</url>
           <line>64</line>
           <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/coffee/java_8_feature/EachWordOccurence.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="60" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.SecurityException" package="java.lang" />

@@ -10,7 +10,9 @@ public class StreamSecondHighest {
     public static void main(String[] args) {
         String str= "I am learning Streams in java 8";
 
- String ans=Arrays.stream(str.split(" ")).sorted(Comparator.comparing(String :: length).reversed()).skip(1).findFirst().get();
+        String ans=Arrays.stream(str.split(" "))
+                .sorted(Comparator.comparing(String :: length)
+                        .reversed()).skip(1).findFirst().get();
 
         System.out.println(ans);
     }
