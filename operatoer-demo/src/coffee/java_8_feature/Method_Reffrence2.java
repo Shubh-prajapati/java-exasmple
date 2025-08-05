@@ -6,10 +6,12 @@ import java.util.List;
 
 public class Method_Reffrence2 {
     public static void main(String[] args) {
-        List<Integer> values = Arrays.asList(14, 25, 36, 47, 59, 60);
-        values.forEach(Method_Reffrence2:: doubleIt);
+        List<Integer>value= Arrays.asList(14,25,46,57,68,89);
+        value.forEach(Method_Reffrence2 ::doubleIt);
+
     }
-    public static void doubleIt(int i){
+
+    private static void doubleIt(int i) {
         System.out.println(i*2);
     }
 }

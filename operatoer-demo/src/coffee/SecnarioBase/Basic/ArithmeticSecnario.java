@@ -3,6 +3,7 @@ package coffee.SecnarioBase.Basic;
 import java.util.Scanner;
 
 public class ArithmeticSecnario {
+    
     //Handle the secnario where the user enter zero to avoid arithmethic experssion
 
     public static void main(String[] args) {
