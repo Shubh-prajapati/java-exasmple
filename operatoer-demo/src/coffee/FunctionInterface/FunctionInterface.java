@@ -30,5 +30,10 @@ public class FunctionInterface {
         System.out.println("Function for appender with  java-10 style: "+java10Appender.append("Pune ","city "));
         System.out.println("Function for appender with java-11 style: "+java11Appender.append("Pune ","city "));
 
+
+
+        //predicate functional interface
+
+
     }
 }
