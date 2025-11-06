@@ -10,10 +10,17 @@ public class FindMaxLength {
 //              .max(Comparator.comparing(String::length)).get();
 //        System.out.println(and);
 
+//
+//        String  ans= Arrays
+//                .stream(str.split(" "))
+//                .max(Comparator.comparing(String:: length))
+//                .get();
+//
+//
+//        System.out.println(ans);
 
-        String  ans= Arrays.stream(str.split(" ")).max(Comparator.comparing(String:: length)).get();
-
-
-        System.out.println(ans);
+        String and=Arrays.stream(str.split(""))
+                .max(Comparator.comparing(String :: length)).get();
+        System.out.println(and);
     }
 }

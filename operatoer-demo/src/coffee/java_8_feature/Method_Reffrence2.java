@@ -9,6 +9,7 @@ public class Method_Reffrence2 {
         List<Integer>value= Arrays.asList(14,25,46,57,68,89);
         value.forEach(Method_Reffrence2 ::doubleIt);
 
+
     }
 
     private static void doubleIt(int i) {
